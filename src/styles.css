@@ -1,0 +1,20 @@
+body { margin: 0; padding-top: 64px; font-family: Arial, sans-serif; }
+html { scroll-behavior: smooth; }
+#noticias, #pisos { scroll-margin-top: 70px; }
+.site-navbar { background: #112789; border-top: 8px solid #f00000; }
+.site-footer { background: #112789; }
+.slide { min-height: 340px; background-size: cover; background-position: center; }
+.slide-content { min-height: 340px; display: flex; align-items: center; padding-bottom: 40px; }
+.slide-content > div { max-width: 650px; }
+.slide-content h2 { font-weight: bold; }
+.news-carousel .carousel-control-prev, .news-carousel .carousel-control-next { width: 6%; }
+#pisos h1 { border-left: 5px solid #f00000; padding-left: 12px; color: #112789; }
+#pisos thead th { background: #112789; color: #fff; }
+.btn-danger { background: #ed0000; border-color: #ed0000; }
+.btn-danger:hover { background: #c90000; border-color: #c90000; }
+.btn-outline-danger { color: #d00000; border-color: #d00000; }
+@media (max-width: 600px) {
+  .slide, .slide-content { min-height: 360px; }
+  .slide-content { padding-left: 35px; padding-right: 35px; }
+  .slide-content h2 { font-size: 1.7rem; }
+}
